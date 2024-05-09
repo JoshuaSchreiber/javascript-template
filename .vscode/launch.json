@@ -1,11 +1,12 @@
 {
     "version": "0.2.0",
     "configurations": [
+
         {
             "name": "Playground",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/uebungen/playground.js",
+            "program": "${workspaceRoot}/playground.js",
             "cwd": "${workspaceRoot}"
         },
         {
