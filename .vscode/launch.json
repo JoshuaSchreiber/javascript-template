@@ -1,7 +1,6 @@
 {
     "version": "0.2.0",
     "configurations": [
-
         {
             "name": "Playground",
             "type": "node",
@@ -28,6 +27,13 @@
             "type": "node",
             "request": "launch",
             "program": "${workspaceRoot}/uebungen/3_operands.js",
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "name": "Übung 3.1: Comments",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/uebungen/3.1_comments.js",
             "cwd": "${workspaceRoot}"
         },
         {
