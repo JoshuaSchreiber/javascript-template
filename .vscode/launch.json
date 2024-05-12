@@ -65,6 +65,13 @@
             "cwd": "${workspaceRoot}"
         },
         {
+            "name": "Übung 7.1: Functions2",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/uebungen/functions2.js",
+            "cwd": "${workspaceRoot}"
+        },
+        {
             "name": "Übung 8: Builtins",
             "type": "node",
             "request": "launch",
