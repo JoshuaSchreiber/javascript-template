@@ -1,3 +1,4 @@
+// https://js.oc.is/docs/intro/welcome/
 import { getMagicNumber } from "./7_functions.js"
 /*
 let message = "Hallo"
