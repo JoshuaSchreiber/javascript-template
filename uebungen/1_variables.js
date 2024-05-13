@@ -1,3 +1,5 @@
+import { getMagicNumber } from "./7_functions.js"
+/*
 let message = "Hallo"
 let oldMessage = message
 message = "Hallo, du da!"
@@ -13,3 +15,4 @@ const name = "Joshua Schreier"
 let awsomePerson
 awsomePerson = name
 console.log(awsomePerson)
+*/

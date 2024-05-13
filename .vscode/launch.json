@@ -61,6 +61,13 @@
             "name": "Übung 7: Functions",
             "type": "node",
             "request": "launch",
+            "program": "${workspaceRoot}/uebungen/7_functions.js",
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "name": "funs.test.js",
+            "type": "node",
+            "request": "launch",
             "program": "${workspaceRoot}/tests/funs.test.js",
             "cwd": "${workspaceRoot}"
         },

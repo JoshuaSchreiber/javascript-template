@@ -167,14 +167,14 @@ Versuche diese Aufgabe zunächst auf einem Zettel in Einzelteile zu zerteilen, w
 */
 
 export function getMagicNumber(startYear, age) {
-    console.log(startYear)
+    console.log("StartYear: ", startYear)
     let emYear = naechstYearWithEMandEUW(startYear)
-    console.log(emYear)
+    console.log("EmYear: ", emYear)
     let ageAtEm = age + emYear - startYear
-    console.log(ageAtEm)
+    console.log("AgeAtEm: ", ageAtEm)
     let afterCollatzfolge = collatzFolge(ageAtEm, 3)
-    console.log(afterCollatzfolge)
-    return ageAtEm
+    console.log("AfterCollatzfolge: ", afterCollatzfolge)
+    return afterCollatzfolge
 }
 
 function naechstYearWithEMandEUW(startYear) {
@@ -203,6 +203,29 @@ function collatzFolge(number, loopsNumber) {
     return number
 }
 
-console.log(getMagicNumber(2024, 30)) // 46
-console.log(getMagicNumber(2018, 18)) // 20
-console.log(getMagicNumber(2035, 5)) // 10
+console.log(getMagicNumber(2024, 30))
+/*
+30 + 16 = 46
+46:2 = 23
+23*3+1 = 70
+70:2 = 35
+*/
+console.log("")
+
+console.log(getMagicNumber(2018, 18))
+/*
+18 + 22 = 40
+40:2 = 20
+20:2 = 10
+10:2 = 5
+*/
+console.log("")
+
+console.log(getMagicNumber(2035, 5))
+/*
+5 + 5 = 10
+10 : 2 = 5
+5*3+1 = 16
+16:2 = 8
+*/
+console.log("")
