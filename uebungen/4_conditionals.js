@@ -1,3 +1,4 @@
+/*
 const myAge = 30
 
 if (myAge > 19) {
@@ -40,6 +41,7 @@ if (ageX < 17) {
 } else {
     console.log("Darf Mietwagen fahren")
 }
+*/
 
 /*
 Schreibe folgendes Programm:

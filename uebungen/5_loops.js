@@ -1,3 +1,4 @@
+/*
 let number = 1
 while (number <= 100) {
     console.log(number)
@@ -32,6 +33,7 @@ while (number < 10) {
 
     console.log("ist ungerade")
 }
+*/
 
 /*
 In der Mathematik gibt es die sogenannte Collatz-Folge. Um sie zu bilden, startet man mit einer beliebigen positiven ganzen Zahl. 

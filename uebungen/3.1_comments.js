@@ -1,3 +1,4 @@
+/*
 const month = 8
 
 // Quartal als String
@@ -22,3 +23,4 @@ if (month < 4) {
 
 // Gib das Quartal aus, wird undefined ausgeben wenn der Monat auf > 12 gesetzt war
 console.log(quarter)
+*/

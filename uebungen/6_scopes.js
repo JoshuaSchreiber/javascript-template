@@ -1,3 +1,4 @@
+/*
 if (5 > 2) {
     // Ich bin in einem Scope
 }
@@ -58,3 +59,4 @@ while (num <= target) {
 export function helloWorld() {
     console.log("Hello World!")
 }
+*/

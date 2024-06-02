@@ -1,3 +1,4 @@
+/*
 const answer = 30 + 12
 
 const cappucinoPrice = 4.5
@@ -38,6 +39,7 @@ console.log(10 != 10)
 const year = 2024
 const isSchaltjahr = 2024 % 4 == 0
 console.log(isSchaltjahr)
+*/
 
 /*
 Deklariere eine Variable age an, die dein Alter enthält

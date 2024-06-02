@@ -1,3 +1,4 @@
+/*
 const name = "Haki"
 const greeting = "Hello dear Human"
 
@@ -9,6 +10,7 @@ const pigsCanFly = false
 
 let meainingOfExistence = "Still undefined"
 console.log(meainingOfExistence)
+*/
 
 /* 
 Legt eine Variable age an, welche euer Alter in ganzen Jahren enthält
